@@ -1,19 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<!--[if lt IE 9]>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tucks</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--[if lt IE 9]>
 		<script src="js/htm5shiv.js"></script>
 	<[end if]-->
-</head>
-<body>
+  </head>
 
+  <body id="container">
+    <h1 class="hide">Tucks Cooling Beer</h1>
+    <header class="homeHeader">
+      <h2 class="hide">Main Header</h2>
+      <a href="index.html"
+        ><img src="images/logo.png" class="logo" alt="logo"
+      /></a>
+      <img src="images/cooling.png" class="cooling" alt="Promo Graphic" />
+      <img src="images/circleBeerBG.png" alt="" class="mainHero" />
+      <img
+        src="images/Red-Stripe-Lager-Cenital4-345x655.png"
+        alt=""
+        class="mobileHero"
+      />
 
+      <!-- need to make dropdown -->
+      <div class="dropMenu"></div>
+      <!-- need to make dropdown -->
 
+      <nav class="mainNav">
+        <h2 class="hide">Main Navigation</h2>
+        <ul>
+          <li class="active"><a href="home.html">Home</a></li>
+          <li><a href="home.html">Beer</a></li>
+          <li><a href="home.html">For Moms</a></li>
+          <li><a href="home.html">About</a></li>
+        </ul>
+      </nav>
 
-<script src="js/main.js"></script>
-</body>
+      <div class="homeHeroContent">
+        <p class="slogan">
+          A Spoonful of Sugar to Help the Medicine Go Down
+        </p>
+        <a href="beer.html" class="button">2020 Collection</a>
+      </div>
+    </header>
+
+    <section class="slider">
+      <h2 class="hide">Promo Images Slider</h2>
+      <div class="arrow"></div>
+      <div class="counters">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <div class="arrow"></div>
+    </section>
+
+    <section class="subNav">
+      <h2 class="hide">Navigation Options</h2>
+      <div class="forMoms">
+        <img src="images/babyFeet.svg" alt="" />
+        <h3>For Moms</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          perspiciatis odit dolorem animi? Laboriosam illo atque
+        </p>
+      </div>
+
+      <div class="aboutUs">
+        <img src="images/Flag-map_of_Jamaica.png" alt="" />
+        <!--  need to change img -->
+        <h3>About Us</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          perspiciatis odit dolorem animi? Laboriosam illo atque
+        </p>
+      </div>
+    </section>
+
+    <footer class="mainFooter">
+      <h2 class="hide">Main Footer</h2>
+      <div class="column">
+        <a href="">About us</a>
+        <a href="">Contact</a>
+        <a href="">Terms & Conditions</a>
+      </div>
+
+      <div class="column">
+        <a class="social" href="">
+          <img src="images/facebook.svg" alt="" />
+          <p>Facebook</p>
+        </a>
+
+        <a class="social" href="">
+          <img src="images/twitter.svg" alt="" />
+          <p>Twitter</p>
+        </a>
+
+        <a class="social" href="">
+          <img src="images/instagram.svg" alt="" />
+          <p>Instagram</p>
+        </a>
+      </div>
+      <div class="column">
+        <p>Subscribe to Our Newsletter</p>
+        <div id="subscribe">
+          <input type="text" placeholder="Email Address" />
+          <span>OK</span>
+        </div>
+      </div>
+      <div class="column">
+        214 Spanish Town Rd,<br />
+        Kingston, Jamaica<br />
+        2548+4C<br />
+        +1 876-923-9291
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
